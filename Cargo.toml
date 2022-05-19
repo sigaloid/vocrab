@@ -1,0 +1,13 @@
+[package]
+name = "vocrab"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = { version = "4.0.1", features = ["openssl"] }
+askama = { version = "0.11.1", features = ["with-actix-web"] }
+askama_actix = "0.13.0"
+serde = { version = "1.0.137", features = ["derive"] }
+thesaurus-web-lib = { git = "https://github.com/sigaloid/thesaurus-web-lib" }
