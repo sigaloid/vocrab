@@ -15,5 +15,13 @@ This project is meant to be in line with [Libreddit](https://github.com/spikecod
 * JSON API (I made a [rust library](https://github.com/sigaloid/thesaurus-web-lib))
 * Better looking webpage
 * Night mode button
+* Docker packaging for easier self-hosting
 
 I'll accept any PR's that add these 😄
+
+
+## Instances
+
+[The main instance](https://vocrab.matthew.science) is mine, I will try to keep it running for as long as is feasible. 
+
+If you are interested in being added to this short list, please install the server and create an issue. 
